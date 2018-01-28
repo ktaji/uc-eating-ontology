@@ -1,0 +1,18 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/eating.owl>
+Import(<http://purl.obolibrary.org/obo/eating/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/eating/imports/chebi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/eating/imports/envo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/eating/imports/uberon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/eating/imports/ro_import.owl>)
+Annotation(rdfs:comment "uc_Eating Ontology")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000000>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000000> "eating"@en)
+)

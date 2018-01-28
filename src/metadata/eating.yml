@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/eating
+
+idspace: EATING
+base_url: /obo/eating
+
+products:
+- eating.owl: https://raw.githubusercontent.com/ktaji/uc-eating-ontology/master/eating.owl
+- eating.obo: https://raw.githubusercontent.com/ktaji/uc-eating-ontology/master/eating.obo
+
+term_browser: ontobee
+example_terms:
+- EATING_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/ktaji/uc-eating-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/ktaji/uc-eating-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/EATING?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/ktaji/uc-eating-ontology/master/
