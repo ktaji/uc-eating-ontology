@@ -6,6 +6,15 @@ Import(<http://purl.obolibrary.org/obo/eating/imports/envo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/eating/imports/uberon_import.owl>)
 Import(<http://purl.obolibrary.org/obo/eating/imports/ro_import.owl>)
 Annotation(rdfs:comment "uc_Eating Ontology")
+ 
+ <!-- http://purl.obolibrary.org/obo/EATING_00000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EATING_00000000">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">eating</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
 
 Declaration(Class(<http://purl.obolibrary.org/obo/EATING_00000000>))
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EATING_00000000> "eating"@en)
